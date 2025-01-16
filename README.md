@@ -2,8 +2,6 @@
 
 A modern, interactive data grid component built with Next.js and Tailwind CSS. Features a responsive design with real-time data manipulation, filtering, and enrichment capabilities.
 
-![Bitscale Data Grid](https://i.postimg.cc/44hN28Nm/ss.png)
-
 ## Features
 
 - 📊 Interactive data grid with sorting and filtering
