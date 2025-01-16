@@ -3,11 +3,6 @@
 import { useState } from "react";
 import {
   Search,
-  MoreHorizontal,
-  Play,
-  Plus,
-  Filter,
-  ArrowUpDown,
   ExternalLink,
   ArrowLeft,
   Settings,
@@ -24,6 +19,8 @@ import {
   Save,
   Loader2,
   UserCircle,
+  Filter,
+  Play,
 } from "lucide-react";
 import {
   Dialog,
@@ -85,7 +82,6 @@ const EnhancedDataGrid = () => {
   const [autoSave, setAutoSave] = useState(true);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedRow, setSelectedRow] = useState<Row | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
   const [selectedRows, setSelectedRows] = useState<Set<number>>(new Set());
   const [showNewRowForm, setShowNewRowForm] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
